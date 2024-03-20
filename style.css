@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 1rem;
+}
+.container {
+    min-height: 95vh;
+    max-width: 320px;
+    background-color: hsl(330, 100%, 98%);
+    margin: 1rem auto;
+    border-radius: 15px;
+}
+img {
+    height: 120px;
+    width: 290px;
+    border-radius:10px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 1em;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 0.45rem;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.box {
+    height: 85px;
+    width: 290px;
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+h2 {
+    font-size: 0.7rem;
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: 400;
+    margin-left: 12px;
+    padding-top: 10px; 
+}
+li {
+    font-size: 0.45rem;
+    font-family: "Young Serif", serif;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.others {
+    font-size: 0.8em;
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+hr {
+    margin-top:10px;
+    width: 290px;
+    margin-left: 15px;
+    border:none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+ol {
+    list-style: none;
+    counter-reset: my-counter;
+}
+ol li {
+    counter-increment: my-counter;
+    margin-left: 1rem;
+    font-size: 0.45rem;
+    font-family: "Outfit", sans-serif;
+}
+ol li::before {
+    content:counter(my-counter) " .";
+    color:hsl(332, 51%, 32%);
+    margin-right: 0.5rem;
+}
+.remnant {
+    padding-left:1rem;
+    margin-top: 0.2rem;
+}
+.text_container {
+    display: flex;
+}
+.carbs {
+    margin-left: 30px;
+}
+.first_quantity {
+    margin-left: 7rem;
+    color:hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.second_quantity {
+    margin-left: 7.5rem;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.third_quantity {
+    margin-left: 7.3rem;
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+.fourth_quantity {
+    margin-left: 8rem;
+    color:hsl(332, 51%, 32%);
+    font-weight: 700;
+}
